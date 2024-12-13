@@ -1,0 +1,6 @@
+#!/Users/ayman/vscode/sparkexo0/spark-handson/.venv/bin/python
+import sys
+from src.fr.hymaia.exo4.no_udf import main
+
+if __name__ == '__main__':
+    sys.exit(main())

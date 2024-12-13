@@ -11,11 +11,15 @@ packages = [
 python = "~3.10.12"
 
 [tool.poetry.dev-dependencies]
-pyspark = "3.3.0"
+pyspark = "3.5.3"
 pytest = "7.1.2"
 awsglue-dev = "^2021.12.30"
 
 [tool.poetry.scripts]
+test_unit = "src.fr.hymaia.exo3.test_spark_jobs:main"
+test_inte = "src.fr.hymaia.exo3.test_integration_spark_jobs:main"
+main3 = "src.fr.hymaia.exo2.spark_clean_job:main"
+main2 = "src.fr.hymaia.exo2.main:main"
 wordcount = "src.fr.hymaia.exo1.main:main"
 clean = "src.fr.hymaia.exo2.spark_clean_job:main"
 aggregate = "src.fr.hymaia.exo2.spark_aggregate_job:main"
