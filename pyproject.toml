@@ -2,9 +2,9 @@
 name = "spark-handson"
 version = "0.1.0"
 description = "Résolvez les exercices"
-authors = ["Franck Cussac"]
+authors = ["Ayman BOUAYOUN"]
 packages = [
-    { include = "src/fr/hymaia" }
+    { include = "src/fr/hymaia/exo4/no_udf.py"},
 ]
 
 [tool.poetry.dependencies]

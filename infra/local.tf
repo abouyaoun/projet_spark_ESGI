@@ -1,6 +1,6 @@
 locals {
   tags = {
-    surname = "" # TODO : complete
-    mail = "" # TODO : complete
+    surname = "Ayman BOUAYOUN" # TODO : complete
+    mail = "ayman.contactepro@gmail.com" # TODO : complete
   }
 }
